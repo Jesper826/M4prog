@@ -8,3 +8,6 @@ SELECT * FROM 'eigen data';
 SELECT vs,opera FROM 'eigen data';
 
 SELECT klok,huisdier FROM 'eigen data';
+
+SELECT sum(leeftijd) as gemiddeldeLeeftijd FROM `huisdieren`;
+SELECT AVG(leeftijd) FROM `huisdieren`;
