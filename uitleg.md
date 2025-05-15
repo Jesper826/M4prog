@@ -1,0 +1,1 @@
+## ik heb in de laatste tabel de waardes verkeerd gemaakt hierdoor ging de sql code er raar uitzien sorry hiervoor voor de rest ging het wel goed en begreep ik het allemaal
