@@ -20,3 +20,14 @@ insert into voedselProduct (hoofdIngredientId,naam) values
 
 insert into ingredient (id,naam) values 
 (3,'bosbessen');
+
+
+
+SELECT 
+    k.naam AS kitten_naam,
+    mama.naam AS mama_naam,
+    papa.naam AS papa_naam
+FROM 
+    kitten k
+JOIN kat mama ON k.mamaId = mama.id
+JOIN kat papa ON k.papaId = papa.id;
