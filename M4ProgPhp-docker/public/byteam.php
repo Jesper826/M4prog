@@ -11,7 +11,6 @@ ORDER BY teamv2.id;
 $stmt = $pdo->query($sql);
 $result = $stmt->fetchAll();
 
-// Groepeer per team
 $teams = [];
 foreach ($result as $row) {
     $teams[$row['teamnaam']][] = $row['naam'];
